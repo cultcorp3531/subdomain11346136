@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CHEFFIN - cult</title>
 <style>
   :root{
@@ -12,6 +17,11 @@
 
   * { box-sizing: border-box; }
 
+  html{
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
   body{
     background: var(--bg);
     color: var(--text);
@@ -19,6 +29,7 @@
     margin: 0;
     padding-inline: 0;
     padding-block: 0;
+    overflow-x: hidden;
     background-image:
       radial-gradient(rgba(243,241,234,0.05) 1px, transparent 1px);
     background-size: 3px 3px;
@@ -295,7 +306,8 @@
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;600&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
-
+</head>
+<body>
 <!-- <div class="ticker">
   <div class="ticker__track" id="tickerTrack"></div>
 </div> -->
@@ -418,3 +430,5 @@
     moreEl.appendChild(a);
   });
 </script>
+</body>
+</html>
